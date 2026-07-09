@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR4k0148/v1
+canonical_location: https://kanripo.org/bkk/KR4k0148/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:80d2d927b8deb12efb4a2db45a88623d21d8eb0caa5df4e1fce34edd8ec300b3
+assets:
+  parts:
+  - {seq: 0, filename: KR4k0148_000.yaml, hash: 'sha256:6c455c6bcfecccc128c57b15925a261a7efcb5b6589678a97e504c01003dc42d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4k0148_000.markers.yaml, hash: 'sha256:b9014f5372dc8a373797321c3e10c5206455c115d0a9a386aebc821f31c2a0a6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4k0148_kf_000-h.1
+    span:
+    - body
+    - 0
+    - 92040
+  label: ''
+  type: section
+  level: 1
+metadata:
+  title: 宦海升沉錄
+  identifiers:
+    krp: KR4k0148
+  tags:
+    kr-categories: KR4k
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0148.xml
+  edition:
+    short: bkk
+hash: sha256:a386e8f8e06ac2854700180f117ee77fa895ae92df3e7a81e0aeff835d21d6c0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
